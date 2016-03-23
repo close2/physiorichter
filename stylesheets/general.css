@@ -1,0 +1,146 @@
+ul
+{
+list-style-type: none;
+}
+li {margin: 5px 0 5px 0;}
+
+        BODY {
+            background-color : #FAE3C1;
+        }
+		BODY.zusatz {
+		
+			background-color : #CAD7E1;
+		}
+        BODY {
+            margin : 0px 0px 0px 0px;
+            border : 0px 0px 0px 0px;
+            padding : 0px 0px 0px 0px;
+        }
+
+        TABLE.main {
+            width : 100%;
+            height : 100%;
+            border : none;
+	    margin: 0 0px;
+        }
+		BODY.zusatz TABLE.main {
+			margin: 0;
+		}
+        TABLE.window {
+            width : 771px;
+            height : 430px;
+            border : none;
+            background-color : white;
+            background-image : URL(../images/right_border.gif);
+            background-repeat : repeat-y;
+            background-position : right;
+        }
+        TD.window_left {
+            width : 530px;
+            height : 430px;
+            background-color : white;
+            padding : 8px 0px 8px 0px;
+        }
+        TD.window_right {
+            width : 241px;
+            height : 430px;
+            background-image : URL(../images/right_back.gif);
+            background-repeat : no-repeat;
+            background-position : top left;
+        }
+        TABLE.box {
+            width : 460px;
+            height : 350px;
+            border : #BFCFDB solid 1px;
+        }
+        TD.box_top, TD.box_bottom {
+            height : 13px;
+            background-color : #CAD7E1;
+        }
+        TD.box_center {
+            background-color : #F7F9FA;
+            padding : 15px 20px 20px 20px;
+            text-align : left;
+            vertical-align : top;
+          	font-family : "Lucida Sans Unicode", Verdana, Tahoma;
+            font-size : 12px
+        }
+        TD.box_made_by {
+            vertical-align : bottom;
+            text-align : right;
+        }
+        TD.box_made_by, A.box_made_by {
+            color : #E7E9EA;
+            text-decoration : none;
+          	font-family : "Lucida Sans Unicode", Verdana, Tahoma;
+            font-size : 12px;
+        }
+        A:HOVER.box_made_by {
+            color : #AAC7D1;
+        }
+        P, BODY, TD {
+          	font-family : "Lucida Sans Unicode", Verdana, Tahoma;
+            font-size : 12px;
+        }
+		A {
+			color : Blue;
+		}
+		A:HOVER {
+			color : #FF5707;
+		}
+        P.box_title {
+            color : #FF5707;
+            margin : 0px 0px 10px 0px;
+            padding : 0px 0px 0px 0px;
+        }
+        P.box_subtitle {
+            text-decoration : underline;
+            margin : 0px 0px 0px 0px;
+            padding : 0px 0px 0px 0px;
+        }
+        P.box_description {
+            margin : 0px 0px 10px 0px;
+            padding : 0px 0px 0px 20px;
+        }
+        TD.menu_button, TD.menu_button_active {
+            padding : 1px 10px 2px 10px;
+            width : 90px;
+            border : #FFBD8B solid 1px;
+            background-color : #F4F4F7;
+        }
+        TD.menu_button_active {
+            background-color : #DFDEE9;
+        }
+        TD.menu_space {
+            height : 12px;
+        }
+        A.menu {
+          	font-family : "Lucida Sans Unicode", Verdana, Tahoma;
+            font-size : 12px;
+            color : #E2350C;
+            text-decoration : none;            
+        }
+        A:HOVER.menu {
+            color : #47495A;
+        }
+        IMG.photos {
+            width : 70px;
+            height : 90px;
+            border : 1px #FF5805 solid;
+        }
+		IMG.photosprax {
+			margin : 5px;
+			border : 1px solid #000066;
+			padding : 5px;
+		}
+		P.zusatz_title {
+			font-size : 14px;
+			font-weight : bold;
+			color : #000000;
+		}
+		TD.zusatz_box {
+			border : 1px grey solid;
+			background-color : #BFCFDB;
+			padding : 15px 35px 15px 35px;
+			
+		}
