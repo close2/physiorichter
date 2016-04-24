@@ -88,6 +88,12 @@ li {margin: 5px 0 5px 0;}
 		A:HOVER {
 			color : #FF5707;
 		}
+        P.attention {
+            font-size : 18px;
+            color : #FF5707;
+            margin : 0px 0px 10px 0px;
+            padding : 0px 0px 0px 0px;
+        }
         P.box_title {
             color : #FF5707;
             margin : 0px 0px 10px 0px;
@@ -124,8 +130,7 @@ li {margin: 5px 0 5px 0;}
             color : #47495A;
         }
         IMG.photos {
-            width : 70px;
-            height : 90px;
+            width : 100px;
             border : 1px #FF5805 solid;
         }
 		IMG.photosprax {
